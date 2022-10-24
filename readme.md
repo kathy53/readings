@@ -5,7 +5,8 @@ Data was fetched from https://www.kaggle.com/datasets/jealousleopard/goodreadsbo
 
 ### ER Diagram
 The final DB setup is shown in figure 1. It includes two views (yellow squares) and authors_top_five table generated through some queries.
-![](../er_diagram.png)
+![](er_diagram.png?raw=true)
+
 **Figure 1** - ER DB diagram  
 
 Notes:
@@ -88,7 +89,7 @@ Also, as a publisher, we want to know some statistics for a given book collectio
     GROUP BY YEAR(publication_date)
     HAVING year >= 1990
     ORDER BY year;
-![](../trend.jpg)
+![](trend.jpg?raw=true)
 
 **Figure 2** - Total published books per year (purple) and total ratings for each batch of books until 2020 (red), this axis is reported as thousands.
 
