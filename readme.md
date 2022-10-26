@@ -5,7 +5,8 @@ Data was fetched from https://www.kaggle.com/datasets/jealousleopard/goodreadsbo
 
 ### ER Diagram
 The final DB setup is shown in figure 1. It includes two views (yellow squares) and authors_top_five table generated through some queries.
-![](../er_diagram.png)
+![](er_diagram.png?raw=true)
+
 **Figure 1** - ER DB diagram  
 
 Notes:
@@ -88,15 +89,15 @@ Also, as a publisher, we want to know some statistics for a given book collectio
     GROUP BY YEAR(publication_date)
     HAVING year >= 1990
     ORDER BY year;
-![](../trend.jpg)
+![](trend.jpg?raw=true)
 
 **Figure 2** - Total published books per year (purple) and total ratings for each batch of books until 2020 (red), this axis is reported as thousands.
 
 Notes:
 1. To see details and more queries you can open the reading.pdf project's presentation
-2. Queries code on queries.sql
+2. Code for queries on queries.sql
 
 
 ## Conclusions
-From a csv file was design and constructed a relational database. To developed this project different tools and frameworks were required, for example,
- a conection between jupyter notebook and workbench. Queries to the database were performed by using one or more of aggregation fuctions, joins, functions, subqueries, stored procedures, views, and triggers. Such queries retrieve valued information for readers, writers, publishers or even marketing staff. For instance, readers could find recommendation for new readings or publishers could assest athors performance. 
+From a csv file was designed and constructed a relational database. To develop this project different tools and frameworks were required, for example,
+ a conection between Jupyter notebook and Workbench. Queries to the database were performed by using one or more aggregation fuctions, joins, functions, subqueries, stored procedures, views, and triggers. Such queries retrieve valued information for readers, writers, publishers or even marketing staff. For instance, readers could find recommendations for new readings or publishers could assest authors performance. 
