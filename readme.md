@@ -100,4 +100,4 @@ Notes:
 
 ## Conclusions
 From a csv file was designed and constructed a relational database. To develop this project different tools and frameworks were required, for example,
- a conection between Jupyter notebook and Workbench. Queries to the database were performed by using one or more aggregation fuctions, joins, functions, subqueries, stored procedures, views, and triggers. Such queries retrieve valued information for readers, writers, publishers or even marketing staff. For instance, readers could find recommendations for new readings or publishers could assest authors performance. 
+ a conection between Jupyter notebook and Workbench. Queries to the database were performed by using one or more aggregation functions, joins, functions, subqueries, stored procedures, views, and triggers. Such queries retrieve valued information for readers, writers, publishers or even marketing staff. For instance, readers could find recommendations for new readings or publishers could assess authors' performance. 
